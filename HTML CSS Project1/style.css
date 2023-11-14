@@ -1,0 +1,384 @@
+/* Global Style */
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+h1{
+    font-size:3.8rem;
+    font-family: 'Pattaya', sans-serif;
+    font-weight: 200;
+}
+li,
+button,
+label,
+p{
+    font-size: 2rem;
+}
+h4{
+    font-size:2.8rem;
+}
+h5{
+    font-size: 2rem;
+}
+ h2{
+    font-size: 4.8rem;
+    font-weight: 1000;
+}
+h3{
+    font-size: 3rem;
+} 
+a{
+    color:white;
+    text-decoration: none;    
+    transition: all 0.4s ease-in-out;
+}
+button{
+    padding: 2rem 6rem;
+    background: rgb(39, 39, 75);
+    border:none;
+    color:white;
+    font-family: Copperplate;
+    font-size: 2.5rem;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out; 
+
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* nav section with hero */
+
+
+.main-head{
+    background:rgb(39, 39, 75);
+    color:white;
+    display:flex;
+    position: sticky;
+    top: 0px;
+    z-index: 3;
+    flex-direction: row;
+}
+nav{
+    min-height:10vh;
+    display:flex;
+    width:90%;
+    margin:auto;
+    padding:2rem;
+    align-items: center;
+    flex-wrap:wrap;
+}
+nav ul{
+    display:flex;
+    list-style:none;
+    flex:1 1 40rem;
+    justify-content: space-around;
+    align-items: center;
+}
+#logo{
+    flex:2 1 40rem;
+}
+.hero{
+    min-height:90vh;
+    background:linear-gradient(rgba(0, 0, 0,0.4), transparent) ,
+    url('/img/pexels-flo-maderebner-869258\ \(2\).jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 3.6rem;
+    font-weight: 1000;
+}
+.hero h3{
+    padding-top:1em;
+    padding-bottom: 2rem;
+}
+/* locations section */
+
+#locations{
+    min-height:100vh;
+    background:linear-gradient(rgba(0, 0, 0,0.4), transparent),
+     url('/img/new-york-page.png');
+    background-size: cover; 
+    background-position: center; 
+    display:flex;
+    align-items:center;
+    position:relative;
+    overflow: hidden;
+
+}
+.locations-head{
+    width:90%;
+    margin:auto;
+    font-size: 3rem;
+    font-weight: 1000;
+}
+.locations-head h2{
+    padding: 1rem 0rem;
+    text-decoration:underline;
+    text-decoration-thickness:0.3rem;
+    z-index: 1;
+}
+.locations-head h3{
+    background: linear-gradient(#131c27, #663b34);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.cloud{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    animation:cloudAnimation 3s infinite alternate ease-in-out; 
+}
+/* .moveing-cloud-1{
+    
+} */
+.moveing-cloud-2{
+    top:20%;
+    z-index:-1;
+    opacity: 0.5;
+    
+}
+
+/* benefits section */
+
+.benefits-head{
+    background:linear-gradient(rgba(0, 0, 0, 0.4), transparent),rgb(39, 39, 75);
+    color:white;
+    min-height: 30vh;
+    padding:3rem;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.benefits-head h3{
+    padding-top:1.5rem;
+}
+.cards img{
+    max-width: 25%;
+    margin-left:11.2rem;
+} 
+.cards{
+    width:90%;
+    margin:auto;
+    min-height: 70vh;
+    display:flex;
+    align-items:center;
+    flex-wrap:wrap;
+}
+
+.card{
+    flex:1 1 25rem;
+    min-height: 60vh;
+    margin: 2rem 2.7rem;
+    margin-top:1rem;
+    box-shadow: 0px 10px 26px rgb(88, 88, 88);
+    text-align: center;
+}
+.card1 img{
+    margin-left:8.6rem;
+    margin-top:1rem;
+}
+.card3 img{
+    margin-top:1rem;
+}
+.card h4{
+    padding:3rem;
+    font-weight: 1000;
+}
+ .card p{
+    padding:3rem;
+}
+/* Contact section */
+#contact{
+    min-height:100vh;
+    background:linear-gradient(rgba(0, 0, 0, 0.4), transparent),url(/img/pexels-s-migaj-747964.jpg);
+    background-size:cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.form-wrapper{
+    background:rgba(65, 65, 116, 0.8);
+    width:60%;
+    color: white;
+    border-radius:10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    min-height: 40vh;
+}
+.form-wrapper h2{
+    padding:4rem;
+    text-align:center;
+
+}
+.name-form, .email-form{
+
+    padding:3rem;
+}
+.form-wrapper label{
+    margin:3rem;
+}
+.form-wrapper button{
+    width:100%;
+    padding:2rem;
+    margin-top:8rem;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.form-wrapper input{
+ padding:0.8rem; 
+ width:30rem;
+ 
+}
+footer{
+    background:rgb(39, 39, 75);
+}
+.footer-wrapper h5{
+    color:white;
+    flex: 10 1 40rem;
+}
+.footer-wrapper{
+    display:flex;
+    padding: 2rem;
+    width: 90%;
+    margin:auto;
+    align-items:center;
+    min-height:10vh;
+    flex-wrap: wrap;
+}
+
+   
+.footer-wrapper ul{
+    display:flex;
+    list-style: none;
+    flex: 1 1 40rem;
+    justify-content: space-between;
+}
+
+
+
+/* key frames */
+
+@keyframes cloudAnimation{
+   from{
+       transform:translate(10%, -10%)
+   }
+   to{
+    transform: translate(0%, 0%);
+   }
+}
+
+
+
+/* button styling */
+
+
+.hero button:hover{
+    background: rgb(24, 24, 58);
+    color:rgb(209, 28, 112);
+}
+.hero button:active{
+    background:rgb(9, 9, 22);
+    color:rgb(158, 9, 79);
+}
+ul li a:hover{
+ color:rgb(209, 28, 112);
+}
+.form-wrapper button:hover{
+    background: rgb(24, 24, 58);
+    color:rgb(209, 28, 112);
+}
+.form-wrapper button:active{
+    background:rgb(9, 9, 22);
+    color:rgb(158, 9, 79);
+
+}
+
+/* media query  */
+
+
+@media screen and (max-width: 1000px){
+    html{
+        font-size:45%;
+    }
+    nav{
+        text-align: center;
+    }
+    #logo{
+        padding: 2rem;
+    }
+    .cloud{
+        height:40rem;
+        pointer-events: none;
+    }
+    .moveing-cloud-2{
+        top:10%;
+    }
+    .form-wrapper input{
+        padding:0rem 0rem;
+    }
+   footer{
+       text-align: center;
+   }
+   footer h5{
+       padding-bottom:2rem
+   }
+   .form-wrapper{
+       width:100%;
+   }
+}
+
+@media screen and (max-width: 428px){
+    .card img{
+        margin-left:14rem;
+    }
+    .card1 img{
+        margin-left:12rem;
+    }
+    
+}
+
+
+ 
+/* Boxes */
+.box1{
+    padding-top: 10rem;
+    background:linear-gradient(rgba(0, 0, 0, 0.4), transparent),rgb(39, 39, 75);
+    
+}
+.box2{
+    padding-top: 10rem;
+    background:linear-gradient(rgba(0, 0, 0, 0.4), transparent),rgb(39, 39, 75);
+}
+.card-box1, .card-box2, .card-box3{
+    flex: 1 1 15rem;
+    min-height:20vh;
+    padding: 2rem 5.2rem;
+    background:rgb(61, 61, 145);
+    display:flex;
+    align-items:center;
+    flex-wrap:wrap;
+}
+.card-box1{
+    padding-left: 7.5rem;
+}
+
+
+
