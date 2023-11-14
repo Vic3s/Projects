@@ -1,0 +1,157 @@
+body{
+    background-color: rgb(39, 39, 75);
+}
+.play-a {
+    margin-left: 43.5rem;
+    color:white;
+    text-decoration: none;
+    font-size: 30px;
+}
+.main-div-start{
+    display: flex;
+    flex-wrap: wrap;
+}
+.image-logo{
+    margin-left:6rem;
+    margin-bottom: 0;
+}
+.game-body{
+    background-color: rgb(22, 22, 41);
+    color:white;
+
+}
+
+.questions{
+    background: linear-gradient(rgba(0, 0, 0, 0.4), transparent),rgb(0, 0, 95);
+    width: 55rem;
+    height: 4rem;
+    text-align: center;
+    margin-top: 5rem;
+    margin-left: 20.5rem;
+    border: 3px solid rgb(184, 184, 184);
+    border-radius: 80px;
+}
+.answer1{
+    background: linear-gradient(rgba(0, 0, 0, 0.4), transparent),rgb(0, 0, 95);
+    border: 3px solid rgb(184, 184, 184);
+    border-radius: 27px;
+    width: 24.5rem;
+    height: 3rem;
+    margin-left: 3.2rem;
+    margin-top: 3rem;
+    cursor: pointer;
+    color: white;
+}
+.answer1:hover{
+    background-color: rgb(253, 249, 0);
+}
+
+.answer2{
+    background: linear-gradient(rgba(0, 0, 0, 0.4), transparent),rgb(0, 0, 95);
+    border: 3px solid rgb(184, 184, 184);
+    border-radius: 27px;
+    width: 24.5rem;
+    height: 3rem;
+    margin-left: 3.2rem;
+    margin-top: 3rem;
+    cursor: pointer;
+    color: white;
+}
+.answer2:hover{
+    background-color: rgb(253, 249, 0);
+}
+.answer3{
+    background: linear-gradient(rgba(0, 0, 0, 0.4), transparent),rgb(0, 0, 95);
+    border: 3px solid rgb(184, 184, 184);
+    border-radius: 27px;
+    width: 24.5rem;
+    height: 3rem;
+    margin-left: 5.5rem;
+    margin-top: 3rem;
+    margin-right: 20rem;
+    cursor: pointer;
+    color: white;
+}
+.answer3:hover{
+    background-color: rgb(253, 249, 0);
+}
+.answer4{
+    background: linear-gradient(rgba(0, 0, 0, 0.4), transparent),rgb(0, 0, 95);
+    border: 3px solid rgb(184, 184, 184);
+    border-radius: 27px;
+    width: 24.5rem;
+    height: 3rem;
+    margin-left: 5.5rem;
+    margin-top: 3rem;
+    cursor: pointer;
+    color: white;
+}
+.answer4:hover{
+    background-color: rgb(253, 249, 0);
+}
+.container{
+    display: flex;
+    flex-direction: row;
+}
+.error{
+    text-align: center;
+    margin: 0rem;
+}
+.fifty-fifty{
+    background: linear-gradient(rgba(0, 0, 0, 0.4), transparent),rgb(0, 0, 95);
+    color:white;
+    max-height: 5.1rem;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+    border-radius: 1000px;
+    font-size: 17px;
+    border-color: white;
+    margin-right: 1rem;
+}
+.audience{
+    background: linear-gradient(rgba(0, 0, 0, 0.4), transparent),rgb(0, 0, 95);
+    color:white;
+    max-height: 5rem;
+    max-width: 5.2rem;
+    border-radius: 1000px;
+    font-size: 15px;
+    border-color: white;
+
+}
+.audience-img{
+   
+   height: 70%;
+
+}
+.call-friend{
+    background: linear-gradient(rgba(0, 0, 0, 0.4), transparent),rgb(0, 0, 95);
+    color:white;
+    max-height: 5rem;
+    max-width: 5.2rem;
+    border-radius: 1000px;
+    font-size: 15px;
+    border-color: white;
+    margin-left:1rem;
+}
+.phone{
+    height: 60%;
+}
+.logo-img{
+    padding-left:32.5rem;
+}
+.img-stat{
+    width:30%;
+    padding-left:34.5rem;
+}
+.call-a-friend{
+    position: fixed;
+    margin-left: 35%;
+}
+.logo-money-counter{
+    display: flex;
+    flex-direction: row;
+}
+.money{
+    font-size: 25px;
+    margin-left: 10rem;
+}
