@@ -1,0 +1,14 @@
+{% extends 'base.html' %} {% block title %}Home {% endblock %}
+
+{% block content %}
+
+<div class="content-does-not-exist content-container-item text-center">
+
+    <h1 class="heading-does-not-exist heading-h1">This account does not exist</h1>
+
+    <ul class="unordered-list try-again-link">
+        <li><a href="{{url_for('login')}}" class="anchor-item">Try Again</a></li>
+    </ul>
+</div>
+
+{% endblock %}

@@ -1,0 +1,335 @@
+
+.home-heading{
+    font-family: 'Epson Pixeled', sans-serif;
+    color: rgb(35, 198, 35);
+    padding-bottom:30px;
+}
+.content{
+    margin: auto;
+    border-left: rgb(35, 198, 35) 4px solid;
+    border-top: rgb(35, 198, 35) 1px solid;
+    border-right: rgb(35, 198, 35) 1px solid;
+    background-color: black;
+    height: 100vh;
+    width: 90vw;
+    align-items: stretch;
+}
+.under-heading{
+    font-family: 'Epson Pixeled', sans-serif;
+    padding-bottom:20px;
+    color: rgb(35, 198, 35);                                      
+}
+.list-options{
+    list-style: none;
+    padding-left: 0px;
+    font-family: 'Epson Pixeled', sans-serif;
+}
+.list-item{
+    text-decoration: none;
+    color: rgb(35, 198, 35);
+}
+.list-item:hover{
+    text-decoration: underline;   
+}
+.footer-content{
+    background-color: black;
+    color: rgb(35, 198, 35);
+    width: 90vw;
+    margin: auto;
+    border-right: rgb(35, 198, 35) 1px solid;
+    border-bottom: rgb(35, 198, 35) 4px solid;
+    border-left: rgb(35, 198, 35) 4px solid;
+    font-family: 'Epson Pixeled', sans-serif;
+}
+.text-footer{
+    margin-left: 10px;
+}
+.content-signup{
+    padding-top: 40px;
+    margin: auto;
+    border-left: rgb(35, 198, 35) 4px solid;
+    border-bottom: rgb(35, 198, 35) 4px solid;
+    border-right: rgb(35, 198, 35) 1px solid;
+    border-top: rgb(35, 198, 35) 1px solid;
+    background-color: black;
+    height: 77vh;
+    width: 90vw;
+    align-items: stretch;
+} 
+.form-content{
+    display: flex;
+    flex-direction: column;
+}
+
+#name, #password, #bio{
+    border-left: rgb(35, 198, 35) 4px solid;
+    border-bottom: rgb(35, 198, 35) 4px solid;
+    border-right: rgb(35, 198, 35) 1px solid;
+    border-top: rgb(35, 198, 35) 1px solid;
+    text-decoration: none;
+    color: rgb(35, 198, 35);
+    font-family: 'Epson Pixeled', sans-serif;
+    max-width: 50%;
+    margin-left: 50px;
+    background-color: black;
+}
+.item-label{
+    
+    text-decoration: none;
+    color: rgb(35, 198, 35);
+    font-family: 'Epson Pixeled', sans-serif;
+    margin-left: 30px;
+}
+.label-2{
+    margin-top: 20px;
+}
+.heading-signup{
+    font-family: 'Epson Pixeled', sans-serif;
+    padding-bottom:20px;
+    color: rgb(35, 198, 35);
+    padding-top: 60px;
+}
+.button-submit{
+    background-color: black;
+    font-family: 'Epson Pixeled', sans-serif;
+    color: rgb(35, 198, 35);
+    border-left: rgb(35, 198, 35) 4px solid;
+    border-bottom: rgb(35, 198, 35) 4px solid;
+    border-right: rgb(35, 198, 35) 1px solid;
+    border-top: rgb(35, 198, 35) 1px solid;
+    width: 50%;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.search{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;  
+    
+}
+.button-submit-search{
+    border-left: rgb(35, 198, 35) 4px solid;
+    border-bottom: rgb(35, 198, 35) 4px solid;
+    border-right: rgb(35, 198, 35) 1px solid;
+    border-top: rgb(35, 198, 35) 1px solid;
+    text-decoration: none;
+    color: rgb(35, 198, 35);
+    font-family: 'Epson Pixeled', sans-serif;
+    background-color: black;
+    padding: 10px 20px 10px 20px;
+    max-width: 30%;
+    
+}
+#name-search{
+    border-left: rgb(35, 198, 35) 4px solid;
+    border-bottom: rgb(35, 198, 35) 4px solid;
+    border-right: rgb(35, 198, 35) 1px solid;
+    border-top: rgb(35, 198, 35) 1px solid;
+    text-decoration: none;
+    color: rgb(35, 198, 35);
+    font-family: 'Epson Pixeled', sans-serif;
+    max-width: 50%;
+    padding: 10px 90px 10px 10px;
+    background-color: black;
+}
+
+.list-of-friends-text{
+    color: rgb(35, 198, 35);
+    font-family: 'Epson Pixeled', sans-serif;
+}
+.line{
+    color: rgb(35, 198, 35);
+    font-family: 'Epson Pixeled', sans-serif;
+}
+.list-of-friends{
+    text-align: center;
+    list-style: none;
+    padding: 0px
+}
+.list-of-friends-li{
+    color: rgb(35, 198, 35);
+    font-family: 'Epson Pixeled', sans-serif;
+    text-decoration: none;
+    margin-right: 400px;
+}
+
+.loged-in-text{
+    color: rgb(35, 198, 35);
+    font-family: 'Epson Pixeled', sans-serif;
+    text-decoration: none;
+}
+
+.a-links{
+    color: rgb(35, 198, 35);
+    font-family: 'Epson Pixeled', sans-serif;
+    text-decoration: none;
+}
+.a-links:hover{
+    text-decoration: underline;
+}
+.content-search{
+    padding-top: 40px;
+    margin: auto;
+    border-left: rgb(35, 198, 35) 4px solid;
+    border-right: rgb(35, 198, 35) 1px solid;
+    border-top: rgb(35, 198, 35) 1px solid;
+    background-color: black;
+    min-height: 50vh;
+    width: 90vw;
+    align-items: stretch;
+}
+.main-content-style{
+    /* padding-top: 40px; */
+    margin: auto;
+    border-left: rgb(35, 198, 35) 4px solid;
+    border-right: rgb(35, 198, 35) 1px solid;
+    border-top: rgb(35, 198, 35) 1px solid;
+    border-bottom: rgb(35, 198, 35) 4px solid;
+    background-color: black;
+    /* height: vh; */
+    width: 90vw;
+    align-items: stretch;
+    padding-bottom: 70px;
+}
+
+.list-search{
+    text-align: center;
+    list-style: none;
+    padding: 0px
+}
+
+.list-search-li{
+    color: rgb(35, 198, 35);
+    font-family: 'Epson Pixeled', sans-serif;
+    text-decoration: none;
+}
+.content-list-item-search{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    padding: 10px 0px 10px 0px;
+    gap: 20px;
+    border-bottom: rgb(35, 198, 35) 4px solid;
+    border-top: rgb(35, 198, 35) 1px solid;
+}
+.button-submit-search-li{
+    border-left: rgb(35, 198, 35) 4px solid;
+    border-bottom: rgb(35, 198, 35) 4px solid;
+    border-right: rgb(35, 198, 35) 1px solid;
+    border-top: rgb(35, 198, 35) 1px solid;
+    text-decoration: none;
+    color: rgb(35, 198, 35);
+    font-family: 'Epson Pixeled', sans-serif;
+    background-color: black;
+    padding: 7px 40px 7px 40px;
+    min-width: 30%;
+}
+
+.list-of-friend-requests-li{
+    color: rgb(35, 198, 35);
+    font-family: 'Epson Pixeled', sans-serif;
+    text-decoration: none;
+    margin-left: 0px;
+    margin-right: 550px;
+}
+.content-inv-fr-req{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border-left: rgb(35, 198, 35) 4px solid;
+    border-bottom: rgb(35, 198, 35) 4px solid;
+    border-right: rgb(35, 198, 35) 1px solid;
+    border-top: rgb(35, 198, 35) 1px solid;
+    background-color: black;
+    height: 77vh;
+    width: 90vw;
+    align-items: stretch;
+}
+.heading-inv-fr-req{
+    font-family: 'Epson Pixeled', sans-serif;
+    color: rgb(35, 198, 35);
+    padding-bottom:30px;
+}
+.content-does-not-exist{
+    margin-top: 50px;
+    padding-top: 40px;
+    margin: auto;
+    border-left: rgb(35, 198, 35) 4px solid;
+    border-bottom: rgb(35, 198, 35) 4px solid;
+    border-right: rgb(35, 198, 35) 1px solid;
+    border-top: rgb(35, 198, 35) 1px solid;
+    background-color: black;
+    height: 77vh;
+    width: 90vw;
+    align-items: stretch;
+}
+.heading-does-not-exist{
+    font-family: 'Epson Pixeled', sans-serif;
+    color: rgb(35, 198, 35);
+    padding-bottom:30px;
+}
+.friends_list_item{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    padding: 10px 0px 10px 0px;
+    border-bottom: rgb(35, 198, 35) 4px solid;
+    border-top: rgb(35, 198, 35) 1px solid;
+}
+
+
+#message{
+    border-left: rgb(35, 198, 35) 4px solid;
+    border-bottom: rgb(35, 198, 35) 4px solid;
+    border-right: rgb(35, 198, 35) 1px solid;
+    border-top: rgb(35, 198, 35) 1px solid;
+    text-decoration: none;
+    color: rgb(35, 198, 35);
+    font-family: 'Epson Pixeled', sans-serif;
+    max-width: 50%;
+    padding: 10px 90px 10px 10px;
+    background-color: black;
+}
+#messages{
+    border-left: rgb(35, 198, 35) 4px solid;
+    border-bottom: rgb(35, 198, 35) 4px solid;
+    border-right: rgb(35, 198, 35) 1px solid;
+    border-top: rgb(35, 198, 35) 1px solid;
+    width: 50vw;
+    height: 50vh;
+}
+.message-box-content{
+    width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+#send-text-btn{
+    background-color: black;
+    font-family: 'Epson Pixeled', sans-serif;
+    color: rgb(35, 198, 35);
+    border-left: rgb(35, 198, 35) 4px solid;
+    border-bottom: rgb(35, 198, 35) 4px solid;
+    border-right: rgb(35, 198, 35) 1px solid;
+    border-top: rgb(35, 198, 35) 1px solid;
+    padding: 10px;
+}
+
+.text{
+    font-family: 'Epson Pixeled', sans-serif;
+    color: rgb(35, 198, 35);
+}
+#new-info{
+
+    border-left: rgb(35, 198, 35) 4px solid;
+    border-bottom: rgb(35, 198, 35) 4px solid;
+    border-right: rgb(35, 198, 35) 1px solid;
+    border-top: rgb(35, 198, 35) 1px solid;
+    text-decoration: none;
+    color: rgb(35, 198, 35);
+    font-family: 'Epson Pixeled', sans-serif;
+    max-width: 50%;
+    padding: 10px 90px 10px 10px;
+    background-color: black;
+    margin-left: 50px;
+}
+

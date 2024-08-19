@@ -1,0 +1,453 @@
+/* General elements */
+.heading-h1{
+    font-family: 'Epson Pixeled', sans-serif;
+    color: rgb(35, 198, 35);
+}
+
+.heading-h2{
+    font-family: 'Epson Pixeled', sans-serif;
+    color: rgb(35, 198, 35);
+}
+
+.heading-h3{
+    font-family: 'Epson Pixeled', sans-serif;
+    color: rgb(35, 198, 35);
+}
+
+.text-item{
+    font-family: 'Epson Pixeled', sans-serif;
+    color: rgb(35, 198, 35);
+}
+
+.label-item{
+    text-decoration: none;
+    color: rgb(35, 198, 35);
+    font-family: 'Epson Pixeled', sans-serif;
+}
+
+.input-item{
+    border-left: rgb(35, 198, 35) 4px solid;
+    border-bottom: rgb(35, 198, 35) 4px solid;
+    border-right: rgb(35, 198, 35) 1px solid;
+    border-top: rgb(35, 198, 35) 1px solid;
+    text-decoration: none;
+    color: rgb(35, 198, 35);
+    font-family: 'Epson Pixeled', sans-serif;
+    background-color: black;
+}
+
+.button-item{
+    background-color: black;
+    font-family: 'Epson Pixeled', sans-serif;
+    color: rgb(35, 198, 35);
+    border-left: rgb(35, 198, 35) 4px solid;
+    border-bottom: rgb(35, 198, 35) 4px solid;
+    border-right: rgb(35, 198, 35) 1px solid;
+    border-top: rgb(35, 198, 35) 1px solid;
+
+}
+
+.content-container-item{
+    margin: auto;
+    font-family: 'Epson Pixeled', sans-serif;
+    color: rgb(35, 198, 35);
+    border-left: rgb(35, 198, 35) 4px solid;
+    border-bottom: rgb(35, 198, 35) 4px solid;
+    border-right: rgb(35, 198, 35) 1px solid;
+    border-top: rgb(35, 198, 35) 1px solid;
+    background-color: black;
+    align-items: stretch;
+
+}
+
+.unordered-list{
+    text-align: center;
+    list-style: none;
+    padding: 0px;
+}
+
+.list-item{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    padding: 10px 0px 10px 0px;
+    gap: 20px;
+    border-bottom: rgb(35, 198, 35) 4px solid;
+    border-top: rgb(35, 198, 35) 1px solid;
+}
+
+.li-item{
+    text-decoration: none;
+    color: rgb(35, 198, 35);
+}
+
+.anchor-item{
+    color: rgb(35, 198, 35);
+    font-family: 'Epson Pixeled', sans-serif;
+    text-decoration: none;
+}
+
+.anchor-item:hover{
+    text-decoration: underline;
+}
+
+.form-content{
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Home Page */
+
+.home-heading{
+    padding-top:60px;
+}
+
+.content-home{
+    height: 50vh;
+    width: 90vw;
+    border-bottom: none;
+}
+
+.under-heading{
+    padding-bottom:20px;
+}
+
+.footer-content{
+    border-top: none;
+    width: 90vw;
+}
+.text-footer{
+    margin-left: 10px;
+}
+
+/* Sign Up Page */
+
+.heading-signup{
+    padding-top: 60px;
+}
+
+.content-signup{
+    padding-top: 40px;
+    height: 77vh;
+    width: 90vw;
+} 
+
+.label1-signup, .label2-signup, .label3-signup{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.label1-signup{
+    margin-top: 0px;
+
+}
+
+#name, #password, #bio{
+    width: 50%;
+    margin-left: 50px;
+}
+
+.button-signup{
+    width: 50%;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 700px){
+    #bio{
+        height: 100px;
+    }
+}
+
+/* Log In Page */
+
+.heading-login{
+    padding-top: 60px;
+}
+
+.content-login{
+    padding-top: 40px;
+    height: 77vh;
+    width: 90vw;
+}
+
+.label1-login, .label2-login{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+#name-login, #password-login{
+    width: 50%;
+    margin-left: 50px;
+}
+
+.button-login{
+    width: 50%;
+    margin-left: 50px;
+    margin-top: 100px;
+}
+
+@media only screen and (max-width: 700px){
+    #name-login, #password-login{
+        min-height: 55px;
+    }
+}
+
+/* Auth Loged In Page */
+    /* Nothing Here */
+
+/* Search For Accounts Page */
+
+.heading-search{
+    padding-top: 60px;
+}
+
+.search-bar{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;  
+}
+
+.content-search{
+    padding-top: 40px;
+    height: 50vh;
+    width: 90vw;
+    border-bottom: none;
+}
+
+.button-submit-search{
+    padding: 10px 20px 10px 20px;
+    max-width: 30%;
+}
+
+.content-search-li-item{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    padding: 10px 0px 10px 0px;
+    gap: 20px;
+    border-bottom: rgb(35, 198, 35) 4px solid;
+    border-top: rgb(35, 198, 35) 1px solid;
+}
+
+.send-friend-req-btn{
+    padding: 7px 40px 7px 40px;
+    min-width: 30%;
+}
+
+#name-search{
+    max-width: 50%;
+    padding: 10px 90px 10px 10px;
+}   
+
+.footer-search{
+    width: 90vw;
+    border-top: none;
+    margin-top: 0px;
+}
+
+@media only screen and (max-width: 700px){
+    .content-search{
+        height: 100vh;
+    }
+
+    .content-search-li-item{
+        flex-direction: column;
+        align-items: center;
+    }
+    .send-friend-req-btn{
+        padding: 7px 40px 7px 40px;
+        width: 70%;
+    }
+}
+
+/* Profile Details Page */
+
+.heading-detailes{
+    padding-top: 60px;
+}
+
+.contnet-detailes{
+    width: 90vw;
+    margin: auto;
+}
+
+.friends-list-item{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    padding: 10px 0px 10px 0px;
+    border-bottom: rgb(35, 198, 35) 4px solid;
+    border-top: rgb(35, 198, 35) 1px solid;
+}
+
+.list-of-friends-li{
+    color: rgb(35, 198, 35);
+    font-family: 'Epson Pixeled', sans-serif;
+    text-decoration: none;
+    flex-grow: 1;
+    margin-left:30px;
+    text-align: left;
+}
+
+.chat_button{
+    margin-left: 10px;   
+    margin-right: 30px;
+}
+
+@media only screen and (max-width: 700px){
+
+    .list-of-friends-li{
+        margin-left:10px;
+    }
+    .chat_button{
+        margin-right: 10px;
+    }
+    .remove-friend-button{
+        max-width: 130px;
+    }
+
+}
+
+/* Friend Requests Inbox Page */
+
+.heading-fr-req{
+    margin-top: 60px;
+}
+
+.request-inbox-content{
+    width: 90vw;
+    margin: auto;
+    padding-bottom: 70px;
+}
+
+.fr-request-item{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    padding: 10px 0px 10px 0px;
+    border-bottom: rgb(35, 198, 35) 4px solid;
+    border-top: rgb(35, 198, 35) 1px solid;
+}
+
+.friend-requests-li{
+    flex-grow: 1;
+    text-align: left;
+    margin-left: 30px;
+}
+
+.decline-button-form{
+    margin-left: 10px;
+    margin-right: 30px;
+}
+
+@media only screen and (max-width: 700px){
+    .friend-requests-li{
+        margin-left: 10px;
+    }
+    .decline-button-form{
+        margin-right: 10px;
+    }
+
+}
+/* Chat Room */
+
+.chat-room-content{
+    width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#message{
+    max-width: 50%;
+    padding: 10px 90px 10px 10px;
+}
+#messages{
+    width: 50vw;
+    height: 50vh;
+}
+#send-text-btn{
+    padding: 10px;
+}
+
+@media only screen and (max-width: 700px){
+
+    .chat-room-content{
+        width: 90vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #messages{
+        width: 90vw;
+        height: 70vh;
+    }
+    .text-msg{
+        font-size: 5px;
+    }
+
+}
+
+/* Incorrect Password Page*/
+
+.content-incorect-password{
+    margin-top: 50px;
+    padding-top: 40px;
+    height: 77vh;
+    width: 90vw;
+    align-items: stretch;
+}
+.heading-incorect-password{
+    padding-bottom:30px;
+}
+
+/* Does not exitst Page */
+
+.content-does-not-exist{
+    margin-top: 50px;
+    padding-top: 40px;
+    height: 77vh;
+    width: 90vw;
+    align-items: stretch;
+}
+.heading-does-not-exist{
+    padding-bottom:30px;
+}
+
+.try-again-link{
+    margin-top: 370px;
+}
+
+/* Change Info Page */
+
+.heading-change-info{
+
+    margin-top: 60px;
+    margin-bottom: 40px
+
+}
+
+.content-change-info{
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    height: 60vh;
+}
+
+#new-info{
+    height: 150px;
+    width: 50%;
+    margin: 0px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 700px){
+
+    #new-info{
+        width: 70%;
+        height: 110px;
+
+    }
+
+}

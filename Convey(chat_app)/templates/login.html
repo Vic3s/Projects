@@ -1,0 +1,23 @@
+{% extends 'base.html' %} {% block title %}Home {% endblock %}
+
+{% block content %}
+
+<h2 class="heading-h2 heading-login text-center">Log In</h2>
+<div class="content-login content-container-item">
+    
+
+    <form action="{{url_for('login')}}" method="POST">
+
+        <div class="form-content">
+            <label class="label-item label1-login">Name: </label>
+            <input class="input-item" type="text" name="name-login" id="name-login">
+            <label class="label-item label2-login">Password: </label>
+            <input class="input-item" type="password" name="password-login" id="password-login">
+            <button type="submit" class="button-item button-login">Enter To Account</button>
+        </div>
+    </form>
+    
+
+</div>
+
+{% endblock %}

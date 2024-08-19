@@ -1,0 +1,41 @@
+{% extends 'base.html' %} {% block title %}Home {% endblock %}
+
+{% block content %}
+
+<h2 class="heading-fr-req heading-h2 text-center"> {{acc_name}}s friend requests</h2>
+
+<div class="request-inbox-content content-container-item">
+
+        <div class="profile-options text-center pt-3">
+        
+            <h5><a href="{{url_for('details')}}" class="anchor-item">Account</a></h5>
+            <h5><a href="{{url_for('loged_in')}}" class="anchor-item">Home</a></h5>
+        
+        </div>
+        
+        <h3 class="text-item text-center mt-5">_-| List Of Friend Requests |-_</h3>
+        <ul class="unordered-list">
+            {% for fr_request in fr_requests %}
+            <div class="fr-request-item justify-content-center">
+                <li class="friend-requests-li">From: {{fr_request}}</li>
+
+                <form method="post" action="{{url_for('fr_request_inbox')}}">
+                    <input type="text" name="name_request_accepted" style="display: none;" value="{{fr_request}}">
+                    <button type="submit" id="accept" class="button-item">Accept Request</button>
+                </form>
+
+                <form class="decline-button-form" method="post" action="{{url_for('fr_request_inbox')}}">
+                    <input type="text" name="name_request_accepted" style="display: none;" value="{{fr_request}} Declined">
+                    <button type="submit" id="decline" class="button-item">Decline Request</button>
+                </form>
+            </div>
+           
+                
+            {% endfor %}
+        </ul>
+        <h3 class="text-item text-center">_________________</h3>
+
+        
+</div>
+
+{% endblock %}

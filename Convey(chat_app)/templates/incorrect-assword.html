@@ -1,0 +1,14 @@
+{% extends 'base.html' %} {% block title %}Home {% endblock %}
+
+{% block content %}
+
+<div class="content-incorect-password content-container-item text-center">
+
+    <h1 class="heading-incorect-password heading-h1">Incorrect Password :(</h1>
+
+    <ul class="unordered-list try-again-link">
+        <li><a href="{{url_for('login')}}" class="anchor-item">Try Again</a></li>
+    </ul>
+</div>
+
+{% endblock %}

@@ -1,0 +1,24 @@
+{% extends 'base.html' %} {% block title %}Home {% endblock %}
+
+{% block content %}
+
+<h2 class="heading-signup heading-h2 text-center">Sign Up</h2>
+<div class="content-signup content-container-item">
+    
+
+    <form action="{{url_for('signup')}}" method="POST">
+
+        <div class="form-content">
+            <label class="label-item label1-signup">Name: </label>
+            <input type="text" class="input-item" name="name-singin" id="name">
+            <label class="label-item label2-signup">Password: </label>
+            <input type="password" class="input-item" name="password-singin" id="password">
+            <label for="bio" class="label-item label3-signup">Info About You:</label>
+            <textarea name="bio" class="input-item" id="bio" rows="7"></textarea>
+            <button type="submit" class="button-item button-signup">Submit Data</button>
+        </div>
+    </form>
+
+</div>
+
+{% endblock %}

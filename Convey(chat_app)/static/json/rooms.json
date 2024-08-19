@@ -1,0 +1,53 @@
+{
+    "rooms": [
+        {
+            "QIAY": {
+                "user1": "Joe",
+                "user2": "Jack",
+                "messages": ""
+            }
+        },
+        {
+            "BYLZ": {
+                "user1": "Jhon",
+                "user2": "Jack",
+                "messages": ""
+            }
+        },
+        {
+            "EKQV": {
+                "user1": "Jackie",
+                "user2": "Jack",
+                "messages": ""
+            }
+        },
+        {
+            "BAZZ": {
+                "user1": "Jackie",
+                "user2": "Joe",
+                "messages": ""
+            }
+        },
+        {
+            "GDYY": {
+                "user1": "Jack",
+                "user2": "Joe",
+                "messages": ""
+            }
+        },
+        {
+            "FDRA": {
+                "user1": "Joe",
+                "user2": "Jack",
+                "messages": ""
+            }
+        },
+        {
+            "BLYB": {
+                "user1": "Joe",
+                "user2": "Jack",
+                "messages": ""
+            }
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{% extends 'base.html' %} {% block title %}Change Info{% endblock %}
+
+{% block content %}
+
+<h2 class="heading-change-info heading-h2 text-center">Change your info</h2>
+
+<div class="content-change-info content-container-item text-center">
+
+    <h3 class="heading-h3 text-center">Current Info: <br>{{current_user.bio}}</h3>
+    
+
+    <form action="{{url_for('change_info')}}" method="POST">
+
+        <div class="form-content align-items-center">
+            <label class="label-item">New Info: </label>
+            <textarea type="text" class="input-item" name="new-info" id="new-info"></textarea>
+            <button type="submit" class="button-item">Change Info</button>
+        </div>
+    </form>
+    
+    <a href="{{url_for('details')}}" class="anchor-item">Home</a>
+</div>
+
+{% endblock %}

@@ -1,0 +1,26 @@
+{% extends 'base.html' %} {% block title %}Home {% endblock %}
+
+{% block content %}
+
+<h2 class="heading-search heading-h2 text-center">Look For People</h2>
+<div class="content-search content-container-item">
+
+    <div class="form-content search-bar justify-content-center">
+        <input type="text" name="name-search" class="input-item" id="name-search" class="input-item">
+        <button class="button-submit-search button-item">Search</button>
+    </div>
+    <div id="acc_name_str" class="{{account_name_str}}"></div>
+    <ul class="list-search unordered-list">
+        
+    </ul>
+
+</div>
+<!-- <footer> -->
+    <div class="text-center content-container-item footer-search">
+        <h4 class="link-home-search"><a href="{{link_here}}" class="anchor-item link-home-search">Home</a></h4>
+
+    </div>
+<!-- </footer> -->
+
+
+{% endblock %}

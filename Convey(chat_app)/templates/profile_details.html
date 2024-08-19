@@ -1,0 +1,43 @@
+{% extends 'base.html' %} {% block title %}Home {% endblock %}
+
+{% block content %}
+
+<h2 class="heading-detailes heading-h2 text-center">Account Information</h2>
+
+<div class="content-container-item contnet-detailes">
+
+    <h2 class="heading-detailes heading-h2 text-center"><strong>Account Name: </strong>{{acc_name}}</h2>
+        <h3 class="heading-h3 text-center"><strong>Info:</strong><br><br>{{current_user.bio}}</h3>
+        <h3 class="text-item text-center"><strong>Options:</strong></h3>
+        
+        <div class="profile-options text-center pt-3">
+            <h5><a href="{{url_for('log_out')}}" class="anchor-item">Log out</a></h5>
+            <h5><a href="{{url_for('change_info')}}" class="anchor-item">Change Info</a></h5>
+            <h5><a href="{{url_for('fr_request_inbox')}}" class="anchor-item">Request Inbox</a></h5>
+            <h5><a href="{{url_for('loged_in')}}" class="anchor-item">Home</a></h5>
+        </div>
+        
+        <h3 class="text-item text-center mt-5">_-| List Of Friends |-_</h3>
+        <ul class="unordered-list">
+            {% for friend in friends %}
+                {% if friend == '' %}            
+                    {{ continue }}
+                {% else%}
+                    <div class="friends-list-item justify-content-center">
+                        <li class="list-of-friends-li" name="fr_name_chat">{{friend}}</li>
+
+                        <form action="{{url_for('details')}}" method="post">
+                            <input type="text" name="fr_name" style="display: none;" value="{{friend}}">
+                            <button type="submit" class="button-item remove-friend-button">Remove Friend</button>
+                        </form>
+                        <button type="submit"class="chat_button button-item" id="{{friend}}">Chat</button>
+                    </div>  
+                
+                {% endif %}
+            {% endfor %}
+        </ul>
+        <h3 class="text-item text-center">_________________</h3>
+
+</div>
+
+{% endblock %}

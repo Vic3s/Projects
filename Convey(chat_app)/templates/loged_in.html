@@ -1,0 +1,27 @@
+{% extends 'base.html' %} {% block title %}Home {% endblock %}
+
+{% block content %}
+
+    <h1 class="heading-h1 home-heading text-center">Home</h1>
+
+    <div class="content-home content-container-item">
+        <h3 class="heading-h3 text-center">Loged as: <a class="anchor-item name-account" href="{{url_for('details')}}">{{loged_name}}</a></h3>
+
+        <div class="box-list-options pt-4">
+            <ul class="unordered-list text-center">
+                <li><a class="li-item anchor-item"  href="{{url_for('search_people')}}">Discover</a></li>
+            </ul>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="footer-content content-container-item">
+            <div class="text-footer">
+                <h5 class="end-footer-1">At the end of the day it's just code.</h5>
+                <h5 class="end-footer-2">SEE YOU SPACE COWBOY.</h5>
+                <h6>By: VaskoDaGama</h6>
+            </div>
+        </div>
+    </footer>
+
+    {% endblock %}
