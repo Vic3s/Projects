@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Log In</title>
+</head>
+<body>
+
+    <div id="page">
+
+        <%- include("./partials/nav.ejs")  %>
+
+        <h2 id="heading2">Log in to your account.</h2>
+
+        <form action="/login" method="post">
+
+            <ul id="log-list">
+
+                <li id="all">
+                    <label id="name-lbl" for="name">Nmae: </label>
+                    <input type="text" id="name" name="name" required>
+                </li> 
+                <li id="all">
+                    <label id="pass-lbl" for="pass">password: </label>
+                    <input type="password" id="pass" name="pass" required>
+                </li>
+
+            </ul>
+
+                <button>Log In To Account</button>
+            
+        </form>
+
+    <div id="login-link">
+        <p>Don't have an account?</p>
+        <a href="/">Sign Up!</a>
+    </div>
+
+    <%- include("./partials/footer.ejs")  %>
+
+    </div>
+    
+    
+
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Document</title>
+</head>
+<body>
+
+        <div id="page">
+
+            <%- include("./partials/nav.ejs")  %>
+
+            <form action="/create-post" method="post" id="form1">
+
+                <h1>Create A Posts</h1>
+
+                <label for="title">Post title:</label>
+                <input type="text" id="title" name="title" required>
+
+                <label for="snippet">Post snippet:</label>
+                <input type="text" id="snippet" name="snippet" required>
+
+                <label for="body">Post body:</label>
+                <textarea type="text" id="body" name="body" required></textarea>
+
+                <button id="submit1">Submit Post</button>
+
+            </form>
+
+        <%- include("./partials/footer.ejs")  %>
+
+
+        </div>
+    
+</body>
+</html>

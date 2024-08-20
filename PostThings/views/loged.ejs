@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>ALL POSTS</title>
+</head>
+<body>
+        <div id="page">
+
+            <%- include("./partials/nav.ejs")  %>
+
+            <h1 id="posts-heading">--Posts Added--</h1>
+            <h3 id="loged-as"> loged in as: <%= name %></h3>
+            <hr id="line" size="3px">
+
+                <div id="posts">
+                    
+                    <% if(posts.length > 0){ %>
+                        <% posts.forEach(post => { %>
+        
+                            <a class="single" href="/posts/<%= post._id %>">
+                                <h3 class="title"><%= post.title %></h3>
+                                <p class="snippit"><%= post.snippet %></p>
+                            </a>
+        
+                        <% }); %>
+                    <% } %>
+
+                </div>
+
+        <%- include("./partials/footer.ejs")  %>
+
+        </div>
+</body>
+</html>
