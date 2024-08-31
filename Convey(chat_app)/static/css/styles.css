@@ -359,12 +359,32 @@
 }
 
 #message{
-    max-width: 50%;
+    max-width: 120vw;
     padding: 10px 90px 10px 10px;
 }
 #messages{
     width: 50vw;
     height: 50vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+/* .messages-outer-wrapper{
+    height: 50vh;
+    overflow: auto;
+    display: flex;
+    flex-direction: column-reverse;
+} */
+
+#messages::-webkit-scrollbar{
+    background-color: black;
+    border-left: rgb(35, 198, 35) 1px solid;
+}
+#messages::-webkit-scrollbar-thumb{
+    border-bottom: rgb(35, 198, 35) 4px solid;
+    border-top: rgb(35, 198, 35) 1px solid;
+    border-left: rgb(35, 198, 35) 1px solid;
+    border-right: rgb(35, 198, 35) 1px solid;
+
 }
 #send-text-btn{
     padding: 10px;

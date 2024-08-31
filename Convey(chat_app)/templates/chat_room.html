@@ -5,7 +5,10 @@
     <div class="chat-room-content justify-content-center">
 
         <h2 class="heading-h2">Now Messaging: {{chat_name}}</h2>
-        <div class="messages content-container-item" id="messages"></div>
+        <div class="messages-outer-wrapper">
+            <div class="messages content-container-item" id="messages">
+            </div>
+        </div>
         <div class="input">
             <input type="text" rows="3" placeholder="Message..." class="input-item" name="message" id="message">
             <button type="button" name="send" id="send-text-btn" class="button-item" onclick="sendMsg()">Send</button>
@@ -35,6 +38,7 @@
             if(message.value == "") return;
             socketio.emit("message", {data: message.value});
             message.value = "";
+
         }
     </script>
 
