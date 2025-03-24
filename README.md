@@ -1,1 +1,1 @@
-Just a repo for my projects
+Just a repository for my projects, most of which are still unfinished.
